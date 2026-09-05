@@ -11,13 +11,13 @@ Run the Project
 
 Start the backend:
 
-uvicorn backend.main:app --reload --port 8000
+uvicorn backend.main:app --reload --port 8001
 
 Start the frontend in another terminal:
 
 npm run dev
-Backend: http://localhost:8000
-Frontend: http://localhost:8443
+Backend: http://localhost:8001
+Frontend: http://localhost:8000
 API Documentation
 
 Once the backend is running:
